@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<body>
+    <h2>How to use:</h2>
+    <h2>1) Your file must be an Excel or a CSV.</h2>
+    <h2>2) It should contain a feature called: text.</h2>
+    <h2>3) The text feature should contain all the texts you want to get predictions for.</h2>
+    <form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form><br>
+    <a href="{{url_for('logout')}}">Logout</a>
+</body>
+</html>

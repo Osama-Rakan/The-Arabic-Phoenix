@@ -1,0 +1,7 @@
+cd Downloads/login
+python
+# bert_classifier = torch.load(f, map_location ='cpu')
+from app import app, db 
+app.app_context().push()
+db.create_all()
+exit()

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+
+<body>
+    <h1>Your file was uploaded successfully!</h1>
+    <img style="max-width: 30%; height: auto;" src="{{ word_cloud_chart }}" alt="word_cloud_chart">
+    <p>Vocab size = {{ vocab_size }}</p>
+    <p>Emojis count = {{ emoji_count }}</p>
+    <p>Count of each emoji = {{ each_emoji_count }}</p>
+    <p>Mean sequence length using MARBERT tokenizer = {{ mean1 }}</p>
+    <p>Median sequence length using MARBERT tokenizer = {{ median1 }}</p>
+    <p>Maximum sequence length using MARBERT tokenizer = {{ max1 }}</p>
+    <p>Minimum sequence length using MARBERT tokenizer = {{ min1 }}</p>
+    <a href="{{url_for('download')}}">Download your file with the predictions</a><br>
+    <a href="{{url_for('upload')}}">Go back</a><br>
+    <a href="{{url_for('logout')}}">Logout</a>
+</body>
+
+</html>
