@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة التنزيل</title>
+</head>
+<body>
+    <h1>صفحة التنزيل</h1>
+    {% for filename in files %}
+    <a href="{{ url_for('download_file', filename=filename) }}">نزل الملف مع التوقعات!</a><br />
+    {% endfor %}
+    <a href="{{url_for('upload')}}">العودة</a><br>
+    <a href="{{url_for('logout')}}">تسجيل الخروج</a>
+</body>
+</html>
