@@ -1,9 +1,9 @@
-# The-Arabic-Phoenix
+# Arabic-Phoenix
 Hate speech on social media is a problem that we are facing in middle eastern countries, and in
 the absence of surveillance the problem is on the rise, we are willing to train a
 model which will be able to detect and tackle this problem. Arabic is the fourth most used
 language on the internet and ranked as the sixth on Twitter.
-The Arabic Phoenix is our graduation project that aims to detect Hate Speech in Arabic using Machine Learning.
+Arabic Phoenix is our graduation project that aims to detect Hate Speech in Arabic using Machine Learning.
 
 ### Why did you choose this project?
 We chose it because we wanted to make something useful. We see this problem everyday and we thought that making an AI to fight this problem would be nice.
