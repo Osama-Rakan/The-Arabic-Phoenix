@@ -5,6 +5,10 @@ model which will be able to detect and tackle this problem. Arabic is the fourth
 language on the internet and ranked as the sixth on Twitter.
 Arabic Phoenix is our graduation project that aims to detect Hate Speech in Arabic using Machine Learning.
 
+### Where can I download your model?
+From the following link:
+https://drive.google.com/file/d/14wP9u1UkbAE-J-PXDYSr9R2fctauX7da/view?usp=sharing
+
 ### Why did you choose this project?
 We chose it because we wanted to make something useful. We see this problem everyday and we thought that making an AI to fight this problem would be nice.
 
