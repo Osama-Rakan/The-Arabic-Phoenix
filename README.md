@@ -18,6 +18,19 @@ You can reproduce the whole experiment by downloading the notebook 'MARBERT_Fina
 ### Why MARBERT?
 After many experiments, fine-tuning MARBERT gave the best results and the improvement was very noticeable compared to other algorithms and architectures.
 
+Important information about [UBC-NLP/MARBERTv2](https://huggingface.co/UBC-NLP/MARBERTv2):
+
+Data source: Arabic Twitter
+
+Number of tokens: 15.6B
+
+Tokenizer: Word-Piece tokenizer
+
+Vocab size: 100K
+
+Architecture: BERT base (12 encoders only)
+
+
 ### What are the main things that improved the model?
 There are two things:
 1) Keeping the emojis and replacing them with meaningful words was key.
